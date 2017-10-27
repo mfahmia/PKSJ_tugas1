@@ -36,6 +36,42 @@
     
     Medusa adalah alat baris perintah, sehingga kamu perlu belajar perintah sebelum menggunakan alat ini. Efisiensi dari alat tergantung pada konektivitas jaringan. Pada sistem lokal, dapat menguji 2000 password per menit.
   
-## Instalasi Ubuntu Server
+## Instalasi Ubuntu Server + OpenSSH Server
 
+  1. Download file instalasi Ubuntu Server dan mount ke virtual machine
+      https://www.ubuntu.com/download/server
+      
+  2. Pilih "*Install Ubuntu Server*"
+  
+  3. Set Hostname, Username, dan Password
+  
+  4. Set Partition Disk Menjadi *Guided - use entire disk*
+  
+  5. Tunggu instalasi selesai
+  
+  6. Lakukan konfigurasi lainnnya
+  
+  7. Pilih software yang akan diinstall, dalam hal ini yaitu OpenSSH Server
+  
+  8. Tunggu instalasi software
+  
+  9. Selesai!!!
 
+## Instalasi Kali Linux
+  
+  1. Download file instalasi Kali Linux dan mount ke virtual machine
+      https://www.kali.org/downloads/
+
+  2. Pilih *Graphical Install*
+  
+  3. Set Hostname, Username, dan Password
+  
+  4. Set Partition Disk menjadi *Guided - use entire disk*
+  
+  5. Set Disk yang akan dibuat menjadi partisi
+  
+  6. Set Partition Scheme menjadi *All files in one partition*
+  
+  7. Tunggu Instalasi Selesai
+  
+  8. Selesai!!!
